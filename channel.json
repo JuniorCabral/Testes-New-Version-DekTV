@@ -1,0 +1,9 @@
+{
+  "note": "version_code 0 = sem build de teste. Use scripts/publish-local-player-updates.ps1 para publicar na LAN.",
+  "channels": {
+    "firetv": "manifests/android-firetv.json",
+    "googletv": "manifests/googletv.json",
+    "mobile": "manifests/android-mobile.json",
+    "windows": "manifests/windows.json"
+  }
+}
