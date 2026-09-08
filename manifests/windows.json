@@ -1,13 +1,13 @@
-﻿{
+{
     "mandatory":  true,
     "platform":  "windows",
     "package":  "com.dektv.app_player",
-    "download_url":  "dist/dektv-player-windows.exe",
+    "download_url":  "https://github.com/JuniorCabral/Testes-New-Version-DekTV/releases/download/v1.0.124/dektv-player-windows.exe",
     "requires_user_confirm_install":  true,
     "file_name":  "dektv-player-windows.exe",
-    "install_hint":  "Build de teste na LAN.",
-    "version_name":  "1.0.100",
-    "version_code":  101,
+    "install_hint":  "Build de teste (GitHub Testes-New-Version-DekTV).",
+    "version_name":  "1.0.124",
+    "version_code":  125,
     "min_supported_version_code":  35,
-    "changelog":  "Play sem probe no 1o clique (mais vagas); dedup auto-reports; collector leve; posters ultra-low-RAM=2."
+    "changelog":  "1.0.124 — Logout sem travar; foco no aviso de vencimento apos login; Pix com link/QR do site quando falta CPF; conta com CPF e nascimento editaveis."
 }

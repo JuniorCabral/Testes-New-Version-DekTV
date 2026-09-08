@@ -1,31 +1,16 @@
-# DekTV — builds de teste (pre-producao)
+# DekTV — builds de teste
 
-Canal **nao oficial**. Use so para validar com clientes antes do upgrade de producao.
+Canal **nao oficial**. Use so para validacao antes da producao.
 
-## Versao atual: **1.0.117** (version_code **118**)
+## Release atual: v1.0.124 (1.0.124 build 125)
 
-### Download direto (Release)
+- Fire TV: https://github.com/JuniorCabral/Testes-New-Version-DekTV/releases/download/v1.0.124/dektv-player-firetv.apk
+- Google TV: https://github.com/JuniorCabral/Testes-New-Version-DekTV/releases/download/v1.0.124/dektv-player-googletv.apk
+- Mobile: https://github.com/JuniorCabral/Testes-New-Version-DekTV/releases/download/v1.0.124/dektv-player-mobile.apk
+- Windows: https://github.com/JuniorCabral/Testes-New-Version-DekTV/releases/download/v1.0.124/dektv-player-windows.exe
 
-Abra a release: https://github.com/JuniorCabral/Testes-New-Version-DekTV/releases/tag/v1.0.117
-
-| Dispositivo | Arquivo |
-|---|---|
-| Fire TV / stick Amazon | `dektv-player-firetv.apk` |
-| Google TV / Android TV | `dektv-player-googletv.apk` |
-| Celular Android | `dektv-player-mobile.apk` |
-
-### Como instalar na TV (Downloader / sideload)
-
-1. Na TV, abra o **Downloader** e cole a URL do APK da tabela acima (link na pagina da Release → botao direito / copiar link do asset).
-2. Instale por cima do app atual (mesmo package).
-3. Abra o DekTV e teste: **canais ao vivo em tela cheia** e **filme/serie (VOD)** com double-tap seek.
-
-### O que validar neste build
-
-- Video live fullscreen sem tela branca/lavada
-- Botao voltar no player (touch)
-- VOD: double-tap esquerda/direita = -10s / +10s
-
-### Manifests
-
-`manifests/` aponta `download_url` absoluto para os assets desta release.
+### O que testar nesta build
+- Sair da conta nas Configuracoes (sem tela travada)
+- Aviso de vencimento com foco nos botoes apos login
+- Pix: se faltar CPF/nascimento, QR + link do site + "Ja completei"
+- Site /conta: completar CPF e data de nascimento
